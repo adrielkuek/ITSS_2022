@@ -77,10 +77,10 @@ frame_idx + 1, id, bbox_left, bbox_top, bbox_w, bbox_h
 If you find this project useful in your research, please consider cite:
 
 ```latex
-@misc{yolov5deepsort2020,
-    title={Real-time multi-object tracker using YOLOv5 and deep sort},
-    author={Mikel Broström},
-    howpublished = {\url{https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch}},
-    year={2020}
+@misc{NUS-ISS_ITSS2022,
+    title={Intelligent Crowd Scene Analytics Engine},
+    author={Adriel, Hao Zi, Pow Look, KC},
+    howpublished = {\url{https://github.com/adrielkuek/ITSS_2022.git}},
+    year={2022}
 }
 ```
