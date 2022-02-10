@@ -38,7 +38,7 @@ If you already cloned and forgot to use `--recurse-submodules` you can run `git 
 
 OR just installing the conda env yaml file using:
 
-`conda env create -f environment.yml`
+`conda env create -f itss.yml`
 
 3. Download the model: crowdhuman_yolov5m.pt from link: (https://drive.google.com/file/d/1HoQHrIKwpc9ezim10hyWf7aQ0kyt0Upb/view?usp=sharing)
 place the model under dir `yolov5/models/`
