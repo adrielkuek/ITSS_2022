@@ -1,6 +1,9 @@
 # Yolov5 + Deep Sort with PyTorch
 
 <div align="center">
+<p>
+<img src="cam7_short2.gif" width="400"/> 
+</p>
 <br>  
 <a href="https://colab.research.google.com/drive/1cp_14t7bFF7S4UswKEd4NRio-HxPRkUg"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
  

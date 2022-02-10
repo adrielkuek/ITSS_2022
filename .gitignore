@@ -1,2 +1,3 @@
 .vscode/
 yolov5/models/crowdhuman_yolov5m.pt
+exp/
