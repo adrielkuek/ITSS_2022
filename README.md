@@ -1,4 +1,4 @@
-# Yolov5 + Deep Sort with PyTorch
+# Intelligent Crowd Scene Analytics Engine
 
 <div align="center">
 <p>
