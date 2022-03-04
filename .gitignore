@@ -2,3 +2,4 @@
 yolov5/models/crowdhuman_yolov5m.pt
 exp/
 __pycache__/
+birds-eye-view/data/
