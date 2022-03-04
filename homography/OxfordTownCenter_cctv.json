@@ -1,0 +1,58 @@
+{
+  "version": "4.2.9",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "p1",
+      "points": [
+        [
+          634.5757575757575,
+          411.5757575757575
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p2",
+      "points": [
+        [
+          1316.3939393939393,
+          469.151515151515
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p3",
+      "points": [
+        [
+          231.54545454545453,
+          717.6363636363635
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p4",
+      "points": [
+        [
+          1031.5454545454545,
+          847.9393939393938
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "OxfordTownCenter.png",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

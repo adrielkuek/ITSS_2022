@@ -1,0 +1,58 @@
+{
+  "version": "4.2.9",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "p1",
+      "points": [
+        [
+          400.0,
+          695.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p2",
+      "points": [
+        [
+          828.3333333333334,
+          770.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p3",
+      "points": [
+        [
+          325.0,
+          1181.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "p4",
+      "points": [
+        [
+          716.6666666666667,
+          1263.3333333333335
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "oxfordtown_birdseye_highres.jpg",
+  "imageData": null,
+  "imageHeight": 1465,
+  "imageWidth": 1080
+}
