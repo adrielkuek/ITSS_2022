@@ -1,0 +1,3 @@
+Requirement already satisfied: torch in /home/user/anaconda3/envs/itss/lib/python3.7/site-packages (1.6.0)
+Requirement already satisfied: numpy in /home/user/anaconda3/envs/itss/lib/python3.7/site-packages (from torch) (1.20.3)
+Requirement already satisfied: future in /home/user/anaconda3/envs/itss/lib/python3.7/site-packages (from torch) (0.18.2)

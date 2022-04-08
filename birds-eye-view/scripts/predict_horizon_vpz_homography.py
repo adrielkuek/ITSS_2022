@@ -494,13 +494,15 @@ def main(_):
 
     plot_scaled_horizonvector_vpz_picture(img_cv, estimated_input_points, net_dims=(net_width, net_height),
                                           color='go', show_vz=True, verbose=True)
-    plt.show()
+    # plt.show()
 
     fx, fy, roll_from_horizon, my_tilt = get_intrinisic_extrinsic_params_from_horizonvector_vpz(
         img_dims=(orig_width, orig_height),
         horizonvector_vpz=estimated_input_points,
         net_dims=(net_width, net_height),
-        verbose=False)
+        verbose=True)
+
+    print(fx, fy, roll_from_horizon, my_tilt)
 
     overhead_hmatrix, est_range_u, est_range_v = get_overhead_hmatrix_from_4cameraparams(fx=fx, fy=fy,
                                                                                          my_tilt=my_tilt,
@@ -508,16 +510,16 @@ def main(_):
                                                                                              roll_from_horizon),
                                                                                          img_dims=(orig_width,
                                                                                                    orig_height),
-                                                                                         verbose=False)
+                                                                                         verbose=True)
 
     scaled_overhead_hmatrix, target_dim = get_scaled_homography(overhead_hmatrix, 1080 * 2, est_range_u, est_range_v)
 
     warped = cv2.warpPerspective(img_cv, scaled_overhead_hmatrix, dsize=target_dim, flags=cv2.INTER_CUBIC)
 
-    plt.imshow(warped)
+    # plt.imshow(warped)
     # plt.xticks([])
     # plt.yticks([])
-    plt.show()
+    # plt.show()
     os.makedirs("output/", exist_ok=True)
     txt_file = 'output/' + img_path[img_path.rfind('/') + 1:img_path.rfind(
         '.')] + '_homography_matrix_' + FLAGS.model_name + '.txt'
