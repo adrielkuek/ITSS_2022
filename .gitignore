@@ -3,6 +3,5 @@ yolov5/models/crowdhuman_yolov5m.pt
 exp/
 __pycache__/
 birds-eye-view/data/
-SPEC/data/
-SPEC/Images/
-SPEC/results/
+spec_data/
+SPEC_scripts/Images/
