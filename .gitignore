@@ -5,3 +5,8 @@ __pycache__/
 birds-eye-view/data/
 spec_data/
 SPEC_scripts/Images/
+SampleVideos/
+ViolenceDetection_Models/
+AppleStore_flow/
+TownCentre_flow/
+

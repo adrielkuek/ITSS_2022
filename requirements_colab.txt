@@ -1,0 +1,48 @@
+git+https://github.com/mkocabas/PARE.git
+
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+opencv-python-headless>=4.1.2.30
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.41.0
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Extras --------------------------------------
+thop  # FLOPs computation
+ipykernel
+
+# CamCalib --------------------------------------
+joblib==0.15.1
+trimesh==3.8.12
+pyrender==0.1.36
+smplx==0.1.28
+loguru>=0.3.2
+albumentations>=0.4.6
+yacs>=0.1.8
+scikit-image>=0.17.2
+requests>=2.24.0
+pillow>=8.2.0
+imageio>=2.9.0
+pytorch-lightning>=1.1.8
+numba>=0.54.1
+filterpy>=1.4.5
+flatten-dict>=0.2.0
+fastai>=1.0.55
+jpeg4py>=0.1.4
+chumpy>=0.70
