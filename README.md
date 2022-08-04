@@ -79,7 +79,7 @@ If you find this project useful in your research, please consider cite:
 ```latex
 @misc{NUS-ISS_ITSS2022,
     title={Intelligent Crowd Scene Analytics Engine},
-    author={Adriel, Hao Zi, Pow Look, KC},
+    author={Adriel, Hao Zi, Pow Look, Konchok},
     url={https://github.com/adrielkuek/ITSS_2022.git},
     year={2022}
 }
